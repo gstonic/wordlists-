@@ -1,0 +1,11 @@
+# bash/bin
+
+
+
+with open("Output.txt", "w") as text_file:
+	for i in xrange(1000000,9999999) :
+    		text_file.write("052" + str(i) + "\n")
+		text_file.write("050" + str(i)+ "\n")
+		text_file.write("054" + str(i)+ "\n")
+
+text_file.close()
